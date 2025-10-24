@@ -1,0 +1,24 @@
+{
+  "name": "@speedtech-templates/template-01-linkpage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist node_modules .vite .turbo"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@speedtech-templates/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "^5.4.9",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}
